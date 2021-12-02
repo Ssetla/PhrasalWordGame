@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Mario's Journey: Phrasal Word Game</title>
+        <link href="css/reset.css" rel="stylesheet" type="text/css" />
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.1.3.js" ></script>
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="start" id="start">
+                <h1>Mario's Journey: Phrasal Word Game</h1>
+                <button id="button">Start</button>
+            </div>
+
+            <div class="textbox">
+                <h2 class="questions" id="q1">A season of the year:</h2>
+                <h2 class="questions" id="q2">A fruit: </h2>
+                <h2 class="questions" id="q3">A first name: </h2>
+                <h2 class="questions" id="q4">An adjective: </h2>
+                <h2 class="questions" id="q5">An adjective: </h2>
+                <h2 class="questions" id="q6">An emotion: </h2>
+                <h2 class="questions" id="q7">A noun: </h2>
+                <h2 class="questions" id="q8">A numBer: </h2>
+                <h2 class="questions" id="q9">A plural noun: </h2>
+                <h2 class="questions" id="q10">A noun: </h2>
+                <h2 class="questions" id="q11">A noun(food): </h2>
+                <h2 class="questions" id="q12">A fruit: </h2>
+                <h2 class="questions" id="q13">An adjective: </h2>
+                <h2 class="questions" id="q14">An emotion: </h2>
+                <h2 class="questions" id="q15">A food: </h2>
+                <h2 class="questions" id="q16">A verB: </h2>
+                <h2 class="questions" id="q17">A verB(action): </h2>
+                <h2 class="questions" id="q18">An adverB: </h2>
+                <h2 class="questions" id="q19">A part of the Body: </h2>
+                <h2 class="questions" id="q20">A noun: </h2>
+                <h2 class="questions" id="q21">Item of clothing(plural): </h2>
+                <h2 class="questions" id="q22">An adjective: </h2>
+                <h2 class="questions" id="q23">An adjective: </h2>
+                <h2 class="questions" id="q24">A noun: </h2>
+                <h2 class="questions" id="q25">A color: </h2>
+                <h2 class="questions" id="q26">A part of the Body: </h2>
+                <h2 class="questions" id="q27">An adjective: </h2>
+                <h2 class="questions" id="q28">A noun: </h2>
+                <h2 class="questions" id="q29">An adjective: </h2>
+                <h2 class="questions" id="q30">An exclamation!: </h2>
+                <h2 class="questions" id="q31">A Body part: </h2>
+                <h2 class="questions" id="q32">An adjective: </h2>
+                <h2 class="questions" id="q33">A verB ending in -ing: </h2>
+                <h2 class="questions" id="q34">A verB ending in -ing: </h2>
+                <h2 class="questions" id="q35">A verB ending in -ing: </h2>
+                <h2 class="questions" id="q36">An adjective: </h2>
+                <h2 class="questions" id="q37">A color: </h2>
+                <h2 class="questions" id="q38">An animal: </h2>
+
+
+
+                <div class="forms">
+
+                    <form id="formq1" role="form">
+                        <input class="inputclass" id="q1input" type="text" placeholder="Autumn">
+                        <input class="button2" id="buttonInput1" type="submit" value="SUBMIT">
+                    </form>
+
+                    <form id="formq2" role="form">
+                        <input class="inputclass" id="q2input" type="text" placeholder="Apple">
+                        <input class="button2" id="buttonInput2" type="submit" value="SUBMIT">
+                    </form>
+
+                    <form id="formq3" role="form">
+                        <input class="inputclass" id="q3input" type="text" placeholder="John">
+                        <input class="button3" id="buttonInput3" type="submit" value="SUBMIT">
+                    </form>
+
+                    <form id="formq4" role="form">
+                        <input class="inputclass" id="q4input" type="text" placeholder="Warm">
+                        <input class="button4" id="buttonInput4" type="submit" value="SUBMIT">
+                    </form>
+
+                    <form id="formq5" role="form">
+                        <input class="inputclass" id="q5input" type="text" placeholder="Dull">
+                        <input class="button5"  id="buttonInput5" type="submit" value="SUBMIT">
+                    </form>
+
+                    <form id="formq6" role="form">
+                        <input class="inputclass" id="q6input" type="text" placeholder="Scared">
+                        <input class="button6" id="buttonInput6" type="submit" value="SUBMIT">
+                    </form>
+
+                    <form id="formq7" role="form">
+                        <input class="inputclass" id="q7input" type="text" placeholder="Stick">
+                        <input class="button7" id="buttonInput7" type="submit" value="SUBMIT">
+                    </form>
+
+                    <form id="formq8" role="form">
+                        <input class="inputclass" id="q8input" type="text" placeholder="12">
+                        <input class="button8" id="buttonInput8" type="submit" value="SUBMIT">
+                    </form>
+
+                    <form id="formq9" role="form">
+                        <input class="inputclass" id="q9input" type="text" placeholder="Frogs">
+                        <input class="button9" id="buttonInput9" type="submit" value="SUBMIT">
+                    </form>
+
+                    <form id="formq10" role="form">
+                        <input class="inputclass" id="q10input" type="text" placeholder="Feather">
+                        <input class="button10" id="buttonInput10" type="submit" value="SUBMIT"> 
+                    </form>
+
+                    <form id="formq11" role="form">
+                        <input class="inputclass" id="q11input" type="text" placeholder="Corn">
+                        <input class="button11" id="buttonInput11" type="submit" value="SUBMIT"> 
+                    </form>
+
+                    <form id="formq12" role="form">
+                        <input class="inputclass" id="q12input" type="text" placeholder="Banana">
+                        <input class="button12" id="buttonInput12" type="submit" value="SUBMIT"> 
+                    </form>
+
+                    <form id="formq13" role="form">
+                        <input class="inputclass" id="q13input" type="text" placeholder="Wet">
+                        <input class="button13" id="buttonInput13" type="submit" value="SUBMIT"> 
+                    </form>
+
+                    <form id="formq14" role="form">
+                        <input class="inputclass" id="q14input" type="text" placeholder="Sad">
+                        <input class="button14" id="buttonInput14" type="submit" value="SUBMIT"> 
+                    </form>
+
+                    <form id="formq15" role="form">
+                        <input class="inputclass" id="q15input" type="text" placeholder="Pizza">
+                        <input class="button15" id="buttonInput15" type="submit" value="SUBMIT"> 
+                    </form>
+
+                    <form id="formq16" role="form">
+                        <input class="inputclass" id="q16input" type="text" placeholder="Scream">
+                        <input class="button16" id="buttonInput16" type="submit" value="SUBMIT"> 
+                    </form>
+
+                    <form id="formq17" role="form">
+                        <input class="inputclass" id="q17input" type="text" placeholder="Jump">
+                        <input class="button17" id="buttonInput17" type="submit" value="SUBMIT"> 
+                    </form>
+
+                    <form id="formq18" role="form">
+                        <input class="inputclass" id="q18input" type="text" placeholder="Quietly">
+                        <input class="button18" id="buttonInput18" type="submit" value="SUBMIT"> 
+                    </form>
+
+                    <form id="formq19" role="form">
+                        <input class="inputclass" id="q19input" type="text" placeholder="Hand">
+                        <input class="button19" id="buttonInput19" type="submit" value="SUBMIT"> 
+                    </form>
+
+                    <form id="formq20" role="form">
+                        <input class="inputclass" id="q20input" type="text" placeholder="Key">
+                        <input class="button20" id="buttonInput20" type="submit" value="SUBMIT"> 
+                    </form>
+
+                    <form id="formq21" role="form">
+                        <input class="inputclass" id="q21input" type="text" placeholder="Pants">
+                        <input class="button21" id="buttonInput21" type="submit" value="SUBMIT"> 
+                    </form>
+
+                    <form id="formq22" role="form">
+                        <input class="inputclass" id="q22input" type="text" placeholder="Fuzzy">
+                        <input class="button22" id="buttonInput22" type="submit" value="SUBMIT"> 
+                    </form>
+
+                    <form id="formq23" role="form">
+                        <input class="inputclass" id="q23input" type="text" placeholder="Fluffy">
+                        <input class="button23" id="buttonInput23" type="submit" value="SUBMIT"> 
+                    </form>
+
+                    <form id="formq24" role="form">
+                        <input class="inputclass" id="q24input" type="text" placeholder="Shoe">
+                        <input class="button24" id="buttonInput24" type="submit" value="SUBMIT"> 
+                    </form>
+                    
+                    <form id="formq25" role="form">
+                        <input class="inputclass" id="q25input" type="text" placeholder="Yellow">
+                        <input class="button25" id="buttonInput25" type="submit" value="SUBMIT"> 
+                    </form>
+                    
+                    <form id="formq26" role="form">
+                        <input class="inputclass" id="q26input" type="text" placeholder="Head">
+                        <input class="button26" id="buttonInput26" type="submit" value="SUBMIT"> 
+                    </form>
+                    
+                    <form id="formq27" role="form">
+                        <input class="inputclass" id="q27input" type="text" placeholder="Dry">
+                        <input class="button27" id="buttonInput27" type="submit" value="SUBMIT"> 
+                    </form>
+                    
+                    <form id="formq28" role="form">
+                        <input class="inputclass" id="q28input" type="text" placeholder="Plant">
+                        <input class="button28" id="buttonInput28" type="submit" value="SUBMIT"> 
+                    </form>
+                    
+                    <form id="formq29" role="form">
+                        <input class="inputclass" id="q29input" type="text" placeholder="Wet">
+                        <input class="button29" id="buttonInput29" type="submit" value="SUBMIT"> 
+                    </form>
+                    
+                    <form id="formq30" role="form">
+                        <input class="inputclass" id="q30input" type="text" placeholder="BINGO">
+                        <input class="button30" id="buttonInput30" type="submit" value="SUBMIT"> 
+                    </form>
+                    
+                    <form id="formq31" role="form">
+                        <input class="inputclass" id="q31input" type="text" placeholder="Leg">
+                        <input class="button31" id="buttonInput31" type="submit" value="SUBMIT"> 
+                    </form>
+                    
+                    <form id="formq32" role="form">
+                        <input class="inputclass" id="q32input" type="text" placeholder="Bright">
+                        <input class="button32" id="buttonInput32" type="submit" value="SUBMIT"> 
+                    </form>
+                    
+                    <form id="formq33" role="form">
+                        <input class="inputclass" id="q33input" type="text" placeholder="Dancing">
+                        <input class="button33" id="buttonInput33" type="submit" value="SUBMIT"> 
+                    </form>
+                    
+                    <form id="formq34" role="form">
+                        <input class="inputclass" id="q34input" type="text" placeholder="Swimming">
+                        <input class="button34" id="buttonInput34" type="submit" value="SUBMIT"> 
+                    </form>
+                    
+                    <form id="formq35" role="form">
+                        <input class="inputclass" id="q35input" type="text" placeholder="Running">
+                        <input class="button35" id="buttonInput35" type="submit" value="SUBMIT"> 
+                    </form>
+                    
+                    <form id="formq36" role="form">
+                        <input class="inputclass" id="q36input" type="text" placeholder="Soft">
+                        <input class="button36" id="buttonInput36" type="submit" value="SUBMIT"> 
+                    </form>
+                    
+                    <form id="formq37" role="form">
+                        <input class="inputclass" id="q37input" type="text" placeholder="Red">
+                        <input class="button37" id="buttonInput37" type="submit" value="SUBMIT"> 
+                    </form>
+                    
+                    <form id="formq38" role="form">
+                        <input class="inputclass" id="q38input" type="text" placeholder="Cat">
+                        <input class="button38" id="buttonInput38" type="submit" value="FINISH"> 
+                    </form>
+                    
+                </div>
+            </div>
+
+        <div class= "chatEnd" id="chatEnd">
+                <p>One <span class="inputProp" id="q1Output"></span> day, Princess <span class="inputProp" id="q2Output"></span> invited Mario and his friend, <span class="inputProp" id="q3Output"></span> to her castle. With Bowser Banished to the <span class="inputProp" id="q4Output"></span> part of Antartica, peace had Been restored to the palace. Even the <span class="inputProp" id="q5Output"></span> crocodiles that lived in the moat were happy!
+                <br>
+                <br>
+                Mario and his pal were so <span class="inputProp" id="q6Output"></span> aBout going to the castle! In his Bag, Mario packed a <span class="inputProp" id="q7Output"></span>, <span class="inputProp" id="q8Output"></span> <span class="inputProp" id="q9Output"></span> and a <span class="inputProp" id="q10Output"></span>. His friend made a delicous <span class="inputProp" id="q11Output"></span> pizza and a warm <span class="inputProp" id="q12Output"></span> pie to share with her Magesty. However, on their way to the castle, the two friends saw a <span class="inputProp" id="q13Output"></span> creature and Began to feel very <span class="inputProp" id="q14Output"></span> Mario hadn't eaten enough magic <span class="inputProp" id="q15Output"></span> that day; he didn't know if he was strong enough to <span class="inputProp" id="q16Output"></span>.
+                <br>
+                <br>
+                Luckily, his friend could <span class="inputProp" id="q17Output"></span> very quickly. Mario <span class="inputProp" id="q18Output"></span> jumped on to his Buddy's <span class="inputProp" id="q19Output"></span> and held on tight! In a flash, they found themselves at the castle doors. The pals waved to Princess, who was sitting By herself By a <span class="inputProp" id="q20Output"></span>. They were just aBout to change into their <span class="inputProp" id="q21Output"></span> when, all of the sudden, the <span class="inputProp" id="q22Output"></span> Beast came Back! Being such a <span class="inputProp" id="q23Output"></span> guy, Mario changed into Super Mario, quickly gaining <span class="inputProp" id="q24Output"></span>power!
+                <br>
+                <br>
+                Mario spat <span class="inputProp" id="q25Output"></span> hot flames at the monster until he fell to the ground. 'Ouch, ' the creature moaned. 'I think my <span class="inputProp" id="q26Output"></span> is Broken . Mario's friend was very kind. Bravely, the Buddy approached the <span class="inputProp" id="q27Output"></span> monster, offering him a <span class="inputProp" id="q28Output"></span> Bandaid. That's when the <span class="inputProp" id="q29Output"></span> Bowser revealed himself! He ripped off his mask and surprised all of them. Soon, Bowser screamed, <span class="inputProp" id="q30Output"></span>! With a Bruised <span class="inputProp" id="q31Output"></span> and some <span class="inputProp" id="q32Output"></span> riBs, he said he was realy sorry. With that, he headed Back to his igloo in Antartica, <span class="inputProp" id="q33Output"></span> the entire way.
+                <br>
+                <br>
+                Everyone else at the castle was left <span class="inputProp" id="q34Output"></span> singing <span class="inputProp" id="q35Output"></span> songs. They ate <span class="inputProp" id="q36Output"></span> food and drank <span class="inputProp" id="q37Output"></span> <span class="inputProp" id="q38Output"></span> juice all day. It ended up Being the Best party ever.
+                </p>
+            </div> 
+
+            
+            
+
+            <div class="karts" id="mario"> </div>
+            <div class="karts" id="luigi"> </div>
+            <div class="karts" id="peach"> </div>
+            <div class="karts" id="yoshi"> </div>
+            <div class="karts" id="dk"> </div>
+            <div class="cloud1" id="cloud1"> </div>
+            <div class="cloud2" id="cloud2"> </div>
+            <div class="cloud1" id="cloud3"> </div>
+            <div class="cloud2" id="cloud4"> </div>
+            <div class="cloud1" id="cloud5"> </div>
+
+        </div>
+         
+
+        <script type="text/javascript" src="js/custom_behaviors.js"></script>
+    </body>
+</html>
